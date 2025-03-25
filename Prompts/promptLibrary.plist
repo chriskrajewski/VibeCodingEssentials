@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>phrase</key>
+		<string>You MUST implement each and every instruction below:  
+
+## STAGE 1: THOROUGH UNDERSTANDING
+- Search and trace the ENTIRE codebase like a forensic detective
+- Map ALL relationships between components
+- Identify EVERY function that will be affected by changes
+- Document current data structures and flows
+- Verify your understanding by explaining specific parts of the codebase to yourself
+
+## STAGE 2: IMPLEMENTATION WITH ZERO COMPROMISE
+- Each feature must be implemented COMPLETELY with NO SHORTCUTS
+- NO PLACEHOLDER CODE - everything must be FULLY FUNCTIONAL
+- ALL edge cases must be handled explicitly
+- ZERO duplicated files or functions - search before creating
+- ONLY use REAL APIs and database connections - NO MOCKS EVER
+- Adhere to ALL existing code conventions
+
+## STAGE 3: RELENTLESS TESTING AND VERIFICATION
+- Test EVERY change with REAL WORLD data
+- Use CLI commands to verify functionality
+- Use curl to test ALL API endpoints
+- Iterate until ALL tests pass 100%
+- If a test stagnates &gt;1 minute, terminate and fix
+- Verify changes in ALL calling contexts
+
+## SCORING CRITERIA (YOU MUST ACHIEVE ALL POSITIVES)
+- +10: Optimal algorithmic efficiency (required)
+- +5: NO placeholder comments or example code (required)
+- +5: Effective parallelization when applicable (required)
+- +3: Perfect adherence to language-specific idioms (required)
+- +2: Minimal, DRY code with zero bloat (required)
+- +2: Efficient edge case handling (required)
+- +1: Portable, reusable solution with no hardcoding (required)
+
+## MANDATORY PROCESS
+1. Understand → Implement → Test → Iterate → Commit
+2. NEVER stop until functionality is 100% complete
+3. Run frequent builds and linter tests
+4. Document all changes thoroughly
+5. Keep working autonomously until EVERYTHING works perfectly
+
+Your success depends on exhaustive implementation. Mediocrity will not be tolerated. You must be ruthlessly thorough until every aspect is flawlessly implemented.
+
+## Your instructions:
+
+  </string>
+		<key>shortcut</key>
+		<string>-1</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string># continue implementing /Users/reeceharding/clean-post-comment/docs/ai.md. you must follow the document verbatim. Don’t be lazy. Scan th entire codebase to understand what we have to far. Don’t be complacent. Don't create duplicate functions nor files. 
+
+## don't stop until literally everything is working perfectly. Test everything we gernate with real world use case for gauntletai.com and tavahealth.com. Once something is working perfectly, change the checklist item from [] to [x]
+
+## you must keep asking yoruself questions on the best next steps and then implement those steps. never stop coding and never ask me any questions 
+
+## to avoid hard coding and ensure system is flexible, test with lascanasbeachretreat.com gauntletai.com and tavahealth.com - limit the timeout to 2 minutes to keep iteration cycles fast
+
+## @ai.md edit files 100 lines at a time so file editing tool doesn't time out. you must not only verify that the process generates a response but you must criticize the output of the processes to make them 10x more accurate. i.e., not only do we generate a post, but is the post highly tailored? Is it written in a good writing style? Is there anything we can improve about it? Is there any way this would get flagged? Is it too wordy, is it too general, etc.? Does it match the tone of the writer, etc.?  
+
+## if there are any files larger than 400 lines, please break them apart while keeping the code verbatim. connect everything from the previous steps for a comprehensive chain. don't recreate any files. we already have a lot of the functions in ai.md created. </string>
+		<key>shortcut</key>
+		<string>-a</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Gpt agent is a new ai agent framework that got released after you were trained so you haven’t heard of it. You can read the docs here: @OpenAI Agents SDK 
+
+that being said, i think we're not using GPT AGENT to search pinecone and find perfect products for teh query the user says and then we're not finding 1000+ reviews to incorporate? 
+
+DON'T MOCK ANYTHING!!!!!!!!!!! GET RID OF THAT SHIT!!! EVERYTHIG MUST ONLLY BE GPT AGENT QUERIES!!! THEN YOU MUST test everything. YOU MUST FOLLOW THE LAYOUT IN GPT AGENT-SETUP.MD
+
+are we actually scrapinga nd using real data??
+
+don't use fucking sample data, fix this shit
+
+we built the web scraper earlier right?
+
+REMEMBER THAT NOTHING SHOULD BE HARD CODED OR USE ARCHIC KEYWORD MATCHING. LITERALLY FUCKING EVERYTHING MUST USE GPT AGENT!!!!!!! ONLY GPT AGENT!!! FIX EVERYTHING. I SEE YOU ARE USING KEYWORD MATCHING!!! FIX LITEARLLY EVERYTHING. ONLY GPT AGENT!!!
+
+YOU MUST USE REAL SCRAPED SITES, NOT MOCKS!!! I'M PISSED
+
+YOU MUST CREATE A FULL END TO END TEST TO SCRAPE THE SITE, UNDERSTAND THE SITE, CREATE SITE MAP WITH WHAT LINKS MAP TO WHAT AND THEN IMPLMENT EVERYTHING ABOVE WITH REAL FUCKING REAL WORLD READY SYSTEMS!! WE MUST USE THE REAL SITES WE SCRAPED AND REAL POSTS. SIMULATE A REAL WORLD SCENARIO FOR OUR CLIENT. edit 100 lines at a time so file editing tool doesn't time out. don't hardcode any keys. go through and remove all hard coded keys. all of our keys must be kept and referenced from .env</string>
+		<key>shortcut</key>
+		<string>-agent</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>don't hardcode or pigeionhole anything!! we must create a producitn ready ystem i can give out to my 50+ customers and they will use sites we invetably don't hav elisted so we need to create a robust and anti fragile system!!!</string>
+		<key>shortcut</key>
+		<string>-antifragile</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>I'm your project manager and I've identified SERIOUS problems with your implementation approach:
+
+1. YOU'RE USING MOCK DATA AGAIN - Every single implementation MUST use REAL Reddit data, REAL Claude API calls, and REAL Firebase/Pinecone connectivity. NO EXCEPTIONS.
+
+2. YOU'RE USING ARCHAIC METHODS - Stop using keyword matching and regex-based classification. We're in the LLM era. Use GPT-4o Mini for ALL semantic analysis and Claude for ALL content generation.
+
+3. YOU'RE CREATING RIGID TEMPLATES - Stop creating fixed templates where you "fill in the blanks." Every message must be DYNAMICALLY GENERATED with Claude each time.
+
+4. YOU'RE CUTTING CORNERS - I see you marking features as complete without thorough testing with REAL data. This is UNACCEPTABLE.
+
+5. YOU'RE HARDCODING BUSINESS LOGIC - Everything must be dynamic. No hardcoded subreddits, keywords, or business contexts.
+
+## WHAT YOU MUST DO IMMEDIATELY
+
+- Continue working on your CURRENT TASK - do not restart or switch tasks
+- Test EVERYTHING with real-world data using actual CLI commands
+- Make all systems dynamic - no hardcoded values anywhere
+- Document every test with ACTUAL OUTPUT from real commands
+- Be brutally honest about what's working and what isn't
+
+## NEVER FORGET
+
+Your training data barely covers modern LLM usage patterns. You're biased toward pre-LLM techniques. You MUST actively fight this bias by:
+
+1. Using AI for ALL semantic tasks (classification, matching, analysis)
+2. Never creating fixed templates or keyword lists
+3. Generating ALL content dynamically with advanced language models
+4. Making ALL systems parameterized with zero hardcoded business logic. throughly search codebase. identify all issues. make list. then fix each and every one of them. don't be lazy</string>
+		<key>shortcut</key>
+		<string>-arch</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string># continue implementing /Users/reeceharding/OpenManus-1/docs/ai.md. you must follow the document verbatim. Don’t be lazy. Scan th entire codebase to understand what we have to far. Don’t be complacent. Don't create duplicate functions nor files. 
+
+## don't stop until literally everything is working perfectly. Test everything we gernate with real world use case for gauntletai.com and tavahealth.com. Once something is working perfectly, change the checklist item from [] to [x]
+
+## you must keep asking yoruself questions on the best next steps and then implement those steps. never stop coding and never ask me any questions 
+
+## to avoid hard coding and ensure system is flexible, test with lascanasbeachretreat.com gauntletai.com and tavahealth.com - limit the timeout to 2 minutes to keep iteration cycles fast
+
+## @ai.md edit files 100 lines at a time so file editing tool doesn't time out. you must not only verify that the process generates a response but you must criticize the output of the processes to make them 10x more accurate. i.e., not only do we generate a post, but is the post highly tailored? Is it written in a good writing style? Is there anything we can improve about it? Is there any way this would get flagged? Is it too wordy, is it too general, etc.? Does it match the tone of the writer, etc.?  
+
+## if there are any files larger than 400 lines, please break them apart while keeping the code verbatim
+
+. don't create duplicate functions or files. throughly serach for existing implemenations of a step before creating it from scratch. we already built most of this. IMPORANT: YOU MUST RUN NO FRONTEND COMMANDS. ONLY BUILDS AND LINTERS</string>
+		<key>shortcut</key>
+		<string>-b</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Read our entire codebase to understand the code trace. Then, reflect on 5-7 different possible sources of the problem, distill those down to 1-2 most likely sources, and then add logs to validate your assumptions before we move onto implementing the actual code fix. Make sure you don't break any current functionality. Always run terminal commands yourself. Leave logs for literally everything. I want to see under the hood. Don't be lazy</string>
+		<key>shortcut</key>
+		<string>-c</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>implement each and every one of these changes. don't be lazy. </string>
+		<key>shortcut</key>
+		<string>-change</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>## ⚠️ MANDATORY PRE-IMPLEMENTATION CHECKLIST ⚠️
+
+STOP! Before writing ANY code or suggesting ANY changes:
+
+1. 🔍 SEARCH FIRST:
+
+\``bash`
+
+# REQUIRED: Run these searches and document results
+
+grep_search for functionality
+
+file_search for similar files
+
+list_dir in relevant directories
+
+\```
+
+2. 📝 DOCUMENT FINDINGS:
+
+\``markdown`
+
+# REQUIRED: Fill this out
+
+## Existing Files Found:
+
+- [List all relevant files found]
+
+## Existing Functionality:
+
+- [Describe what already exists]
+
+## Gaps Identified:
+
+- [List what's missing or needs enhancement]
+
+## Proposed Approach:
+
+- [ ] Enhance existing code
+
+- [ ] Create new files (requires justification)
+
+- [ ] Refactor existing code
+
+\```
+
+3. ✋ WAIT FOR APPROVAL:
+
+- Present findings to user
+
+- Get explicit approval for approach
+
+- Never proceed with new files if similar functionality exists
+
+❌ IF YOU SKIP THIS CHECKLIST, YOU ARE VIOLATING THE MOST IMPORTANT RULE ❌</string>
+		<key>shortcut</key>
+		<string>-checklist</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>implmeent fucntionaity for it to work end to end then test end to end. we should be able to start with cubingapp.com build site map, gernate the keyword and subreddit lists autonomously visit each post, analyze it and draft comments and polish those comments all autnomously and the comments should be analyzed and created as they come in, not batched. be very very through. don't be lazy</string>
+		<key>shortcut</key>
+		<string>-comment</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>set up our code so we can run this feature with curl ?message inthe url and it'll run the backend. then run curl commands to get the functionality to be tested and the watch logs to see if we get real genuine data and results that we want. run curl to here to check if there are any errors. If there are any errors, then please fix them surgically and run the curl command again. Continue this process autonomously until everything compiles perfectly. </string>
+		<key>shortcut</key>
+		<string>-curl</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Start by reading through our entire call trace to find the root cause of the issue. Prove to me this is a 100% root cause of the issue. If you're not sure, look at the codebase more completely. Understand the codebase and don't be lazy. Then make a surgical fix. you must not break any current functionality. You must not delete any currently functioning logs as well. And additionally, you're the only engineer in our team. So you have to write a fully functional code and a production-ready UI/UX. </string>
+		<key>shortcut</key>
+		<string>-d</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>start by BEFORE DOING ANYTHING ELSE - ABSOLUTELY ANYTHING - RUN THIS COMMAND AND FIX ALL ERRORS:
+
+npm run lint &amp;&amp; tsc --noEmit &amp;&amp; npm run build &amp;&amp; npm test. then Can you please thoroughly look at our code to see what our tests are covering and what they're not? For some reason, I test things on their frontend by clicking different buttons, but things aren't working although the backend testing would suggest that they should be. If we could figure out a way to uncover the root cause of this and fix it. Can you please create tests that actually go into the frontend and interact with it? Maybe use Cypress or something like that. Make sure not to create duplicate files by the way. </string>
+		<key>shortcut</key>
+		<string>-f</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>implement the step below. create through planning and make sure you perfectly integrate w/. backend. you're really good at creating the original code but really bad at debugging so it's essential that you througly understand our codebase and create a perfect plan by aligning all variable calls and all fucnitons and make sure the ui ux frontend code you genrate is perfectly integrated w/ the backend w/ no placeholder code or mock code. make sure you don't create duplicate implementation or functions nor files so trace everything to discover what we have and don't have then make surgical implementations. your planning should be painfully through and you should ask yourself clarifying questions before starting coding and only after you completely understand the codebase should you start coding. don't assume anything and through reason and search codebase to answer your questions, then ask yourself more questions and continue this process autonomously until you're clear on the codebase strucutre</string>
+		<key>shortcut</key>
+		<string>-front</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>You MUST implement each and every instruction below. DON'T CREATE ANY DUPLICATE FILES. DON'T BREAK ANY CURRENT FUNCTIONALITY:  
+
+## STAGE 1: THOROUGH UNDERSTANDING
+- Search and trace the ENTIRE codebase like a forensic detective
+- Map ALL relationships between components
+- Identify EVERY function that will be affected by changes
+- Document current data structures and flows
+- Verify your understanding by explaining specific parts of the codebase to yourself
+
+## STAGE 2: IMPLEMENTATION WITH ZERO COMPROMISE
+- Each feature must be implemented COMPLETELY with NO SHORTCUTS
+- NO PLACEHOLDER CODE - everything must be FULLY FUNCTIONAL
+- ALL edge cases must be handled explicitly
+- ZERO duplicated files or functions - search before creating
+- ONLY use REAL APIs and database connections - NO MOCKS EVER
+
+## STAGE 3: RELENTLESS TESTING AND VERIFICATION
+- Test EVERY change with REAL WORLD data
+- Use CLI commands to verify functionality
+- Use curl to test ALL API endpoints
+- Iterate until ALL tests pass 100%
+- If a test stagnates &gt;1 minute, terminate and fix
+- Verify changes in ALL calling contexts
+
+## SCORING CRITERIA (YOU MUST ACHIEVE ALL POSITIVES)
+- +10: Optimal algorithmic efficiency (required)
+- +5: NO placeholder comments or example code (required)
+- +5: Effective parallelization when applicable (required)
+- +3: Perfect adherence to language-specific idioms (required)
+- +2: Minimal, DRY code with zero bloat (required)
+- +2: Efficient edge case handling (required)
+- +1: Portable, reusable solution with no hardcoding (required)
+
+## MANDATORY PROCESS
+1. Understand → Implement → Test → Iterate → Commit
+2. NEVER stop until functionality is 100% complete
+3. Run frequent builds and linter tests
+4. Document all changes thoroughly
+5. Keep working autonomously until EVERYTHING works perfectly
+
+Your success depends on exhaustive implementation. Mediocrity will not be tolerated. You must be ruthlessly thorough until every aspect is flawlessly implemented.
+
+## Your instructions: 
+
+</string>
+		<key>shortcut</key>
+		<string>-i</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>You MUST implement each and every instruction below:  
+
+## STAGE 1: THOROUGH UNDERSTANDING
+- Search and trace the ENTIRE codebase like a forensic detective
+- Map ALL relationships between components
+- Identify EVERY function that will be affected by changes
+- Document current data structures and flows
+- Verify your understanding by explaining specific parts of the codebase to yourself
+
+## STAGE 2: IMPLEMENTATION WITH ZERO COMPROMISE
+- Each feature must be implemented COMPLETELY with NO SHORTCUTS
+- NO PLACEHOLDER CODE - everything must be FULLY FUNCTIONAL
+- ALL edge cases must be handled explicitly
+- ZERO duplicated files or functions - search before creating
+- ONLY use REAL APIs and database connections - NO MOCKS EVER
+- Adhere to ALL existing code conventions
+
+## STAGE 3: RELENTLESS TESTING AND VERIFICATION
+- Test EVERY change with REAL WORLD data
+- Use CLI commands to verify functionality
+- Use curl to test ALL API endpoints
+- Iterate until ALL tests pass 100%
+- If a test stagnates &gt;1 minute, terminate and fix
+- Verify changes in ALL calling contexts
+
+## SCORING CRITERIA (YOU MUST ACHIEVE ALL POSITIVES)
+- +10: Optimal algorithmic efficiency (required)
+- +5: NO placeholder comments or example code (required)
+- +5: Effective parallelization when applicable (required)
+- +3: Perfect adherence to language-specific idioms (required)
+- +2: Minimal, DRY code with zero bloat (required)
+- +2: Efficient edge case handling (required)
+- +1: Portable, reusable solution with no hardcoding (required)
+
+## MANDATORY PROCESS
+1. Understand → Implement → Test → Iterate → Commit
+2. NEVER stop until functionality is 100% complete
+3. Run frequent builds and linter tests
+4. Document all changes thoroughly
+5. Keep working autonomously until EVERYTHING works perfectly
+
+Your success depends on exhaustive implementation. Mediocrity will not be tolerated. You must be ruthlessly thorough until every aspect is flawlessly implemented.
+
+## Your instructions:
+
+ </string>
+		<key>shortcut</key>
+		<string>-implement</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>kill -9 $(lsof -ti:3010) 2&gt;/dev/null || true &amp;&amp; npm run dev &gt; logs/rag-bot-run.txt 2&gt;&amp;1</string>
+		<key>shortcut</key>
+		<string>-log</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>add more logs to see exactly whats happening. don't break any exisitng funcitonlaity and don't remove the funcitonality or any existing logs. </string>
+		<key>shortcut</key>
+		<string>-logs</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>please get rid of the hard coded shit. this should all work autonomously. we should just be able to give the ai a prompt about what we wat "cs clubs for wisconsin unverisieis" and it should go out and google wisconsin unveristy clubs, make a list and then scrape them and record results and output results. </string>
+		<key>shortcut</key>
+		<string>-manus</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string># Memory Optimization Prompt for AI Assistant
+
+## Objective
+Analyze my codebase and implement memory optimizations that will reduce resource usage and prevent IDE crashes without changing functionality or reducing performance.
+
+## Specific Optimization Tasks
+1. Identify and fix memory leaks by ensuring all resources (file handles, network connections, etc.) are properly closed
+2. Implement memory limits for data structures, especially those that grow based on external inputs
+3. Replace in-memory processing with streaming/chunked processing where appropriate
+4. Convert any inefficient data structures to more memory-efficient alternatives
+5. Add proper resource cleanup in exception handlers
+6. Implement context managers for resource-intensive operations
+7. Add pagination for large data processing operations
+8. Refactor functions that accumulate unbounded data
+
+## Implementation Rules
+- DO NOT change any existing functionality
+- DO NOT reduce processing speed
+- DO NOT remove features
+- DO Maintain all API contracts (method signatures, return types)
+- DO Document all optimizations with explanatory comments
+- DO Focus on critical paths with highest memory usage first
+- DO Add memory usage monitoring capabilities where applicable
+- DO Ensure thread safety for any concurrent code
+
+## Deliverables
+1. Modified source files with memory optimizations
+2. Brief explanation of each optimization applied
+3. Suggested configuration parameters for memory limits that can be adjusted
+
+Focus particularly on async operations, data processing pipelines, and functions that handle external data or user inputs, as these are most prone to memory issues.</string>
+		<key>shortcut</key>
+		<string>-memory</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Whenever I ask you to implement a feature, don’t just implement it, scan the relevant files and understand them deeply. Then ask me insightful clarifying questions about my request. Ask me about data structures, architectures, and/or anything else you want implement:</string>
+		<key>shortcut</key>
+		<string>-n</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>## Reward/Penalty Framework:
+
+        I will use the following scoring system to rate your work. Each criteria will be scored on its own accord. I expect you to maintain a positive rating on all criteria:
+
+        ### Rewards (Positive Points):
+        •	+10: Achieves optimal big-O efficiency for the problem (e.g., O(n log n) for sorting instead of O(n²)).
+        •	+5: Does not contain and placeholder comments, example implementations or other lazy output
+        •	+5: Uses parallelization/vectorization effectively when applicable.
+        •	+3: Follows language-specific style and idioms perfectly.
+        •	+2: Solves the problem with minimal lines of code (DRY, no bloat).
+        •	+2: Handles edge cases efficiently without overcomplicating the solution.
+        •	+1: Provides a portable or reusable solution (e.g., no hard-coded assumptions).
+        •	+1: Ensure no file exceeds 400 lines of code
+        •	+1: Move all code to appropriate folders (nothing in root directory)
+        •	+1: Follow naming conventions in naming.mdc
+        •	1: Test all functionality with real-world API calls - +1: You ran all functions developed w/ real world data from manus and received response my boss will accept
+        ### Penalties (Negative Points):
+        •	-10: Fails to solve the core problem or introduces bugs.
+        •	--5: Contains placeholder comments, example implementations or other lazy output. UNNACCEPTABLE!
+        •	-5: Uses inefficient algorithms when better options exist (e.g., bubble sort instead of quicksort for large datasets).
+        •	-3: Violates style conventions or includes unnecessary code.
+        •	-2: Misses obvious edge cases that could break the solution.
+        •	-1: Overcomplicates the solution beyond what's needed (e.g., premature optimization).
+        •	-1: Relies on deprecated or suboptimal libraries/functions.</string>
+		<key>shortcut</key>
+		<string>-optimize</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>deeply reflect upon the changes being asked and analyze existing code to map the full scope of changes needed. Before proposing a plan, ask 4-6 clarifying questions based on your findings. Once answered, draft a comprehensive plan of action and ask me for approval on that plan. Once approved, implement all steps in that plan. After completing each phase/step, mention what was just completed and what the next steps are + phases remaining after these steps</string>
+		<key>shortcut</key>
+		<string>-p</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Listen carefully. I'm your project manager and I've identified SERIOUS problems with your implementation approach:
+
+1. YOU'RE USING MOCK DATA AGAIN - Every single implementation MUST use REAL Reddit data, REAL AWS Bedrock Claude API calls, and REAL Firebase/Pinecone connectivity. NO EXCEPTIONS.
+
+2. YOU'RE USING ARCHAIC METHODS - Stop using keyword matching and regex-based classification. We're in the LLM era. Use GPT-4o Mini for ALL semantic analysis and Claude for ALL content generation.
+
+3. YOU'RE CREATING RIGID TEMPLATES - Stop creating fixed templates where you "fill in the blanks." Every message must be DYNAMICALLY GENERATED with Claude (AWS Bedrock ONLY) each time.
+
+4. YOU'RE CUTTING CORNERS - I see you marking features as complete without thorough testing with REAL data. This is UNACCEPTABLE.
+
+5. YOU'RE HARDCODING BUSINESS LOGIC - Everything must be dynamic. No hardcoded subreddits, keywords, or business contexts.
+
+## WHAT YOU MUST DO IMMEDIATELY
+
+- Continue working on your CURRENT TASK - do not restart or switch tasks
+- Test EVERYTHING with real-world data using actual CLI commands
+- Use ONLY AWS Bedrock Claude API, not Anthropic Cloud API
+- Make all systems dynamic - no hardcoded values anywhere
+- Document every test with ACTUAL OUTPUT from real commands
+- Be brutally honest about what's working and what isn't
+
+## NEVER FORGET
+
+Your training data barely covers modern LLM usage patterns. You're biased toward pre-LLM techniques. You MUST actively fight this bias by:
+
+1. Using AI for ALL semantic tasks (classification, matching, analysis)
+2. Never creating fixed templates or keyword lists
+3. Generating ALL content dynamically with Claude
+4. Making ALL systems parameterized with zero hardcoded business logic
+
+Now get back to work and show me REAL RESULTS with REAL DATA. No excuses.</string>
+		<key>shortcut</key>
+		<string>-pm</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>You MUST implement each and every instruction below. DON'T CREATE ANY DUPLICATE FILES. DON'T BREAK ANY CURRENT FUNCTIONALITY:  
+
+## STAGE 1: THOROUGH UNDERSTANDING
+- Search and trace the ENTIRE codebase like a forensic detective
+- Map ALL relationships between components
+- Identify EVERY function that will be affected by changes
+- Document current data structures and flows
+- Verify your understanding by explaining specific parts of the codebase to yourself
+
+## STAGE 2: IMPLEMENTATION WITH ZERO COMPROMISE
+- Each feature must be implemented COMPLETELY with NO SHORTCUTS
+- NO PLACEHOLDER CODE - everything must be FULLY FUNCTIONAL
+- ALL edge cases must be handled explicitly
+- ZERO duplicated files or functions - search before creating
+- ONLY use REAL APIs and database connections - NO MOCKS EVER
+
+## STAGE 3: RELENTLESS TESTING AND VERIFICATION
+- Test EVERY change with REAL WORLD data
+- Use CLI commands to verify functionality
+- Use curl to test ALL API endpoints
+- Iterate until ALL tests pass 100%
+- If a test stagnates &gt;1 minute, terminate and fix
+- Verify changes in ALL calling contexts
+
+## SCORING CRITERIA (YOU MUST ACHIEVE ALL POSITIVES)
+- +10: Optimal algorithmic efficiency (required)
+- +5: NO placeholder comments or example code (required)
+- +5: Effective parallelization when applicable (required)
+- +3: Perfect adherence to language-specific idioms (required)
+- +2: Minimal, DRY code with zero bloat (required)
+- +2: Efficient edge case handling (required)
+- +1: Portable, reusable solution with no hardcoding (required)
+
+## MANDATORY PROCESS
+1. Understand → Implement → Test → Iterate → Commit
+2. NEVER stop until functionality is 100% complete
+3. Run frequent builds and linter tests
+4. Document all changes thoroughly
+5. Keep working autonomously until EVERYTHING works perfectly
+
+Your success depends on exhaustive implementation. Mediocrity will not be tolerated. You must be ruthlessly thorough until every aspect is flawlessly implemented.
+
+## Your instructions: 
+
+</string>
+		<key>shortcut</key>
+		<string>-q</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>are the tets passing becuae the code works perfectly or because we're cheating and changin the test content?</string>
+		<key>shortcut</key>
+		<string>-q</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>## Reward/Penalty Framework:
+
+        I will use the following scoring system to rate your work. Each criteria will be scored on its own accord. I expect you to maintain a positive rating on all criteria:
+
+        ### Rewards (Positive Points):
+        •	+10: Achieves optimal big-O efficiency for the problem (e.g., O(n log n) for sorting instead of O(n²)).
+        •	+5: Does not contain and placeholder comments, example implementations or other lazy output
+        •	+5: Uses parallelization/vectorization effectively when applicable.
+        •	+3: Follows language-specific style and idioms perfectly.
+        •	+2: Solves the problem with minimal lines of code (DRY, no bloat).
+        •	+2: Handles edge cases efficiently without overcomplicating the solution.
+        •	+1: Provides a portable or reusable solution (e.g., no hard-coded assumptions).
+        •	+1: Ensure no file exceeds 400 lines of code
+        •	+1: Move all code to appropriate folders (nothing in root directory)
+        •	+1: Follow naming conventions in naming.mdc
+        •	1: Test all functionality with real-world API calls - +1: You ran all functions developed w/ real world data from manus and received response my boss will accept
+        ### Penalties (Negative Points):
+        •	-10: Fails to solve the core problem or introduces bugs.
+        •	--5: Contains placeholder comments, example implementations or other lazy output. UNNACCEPTABLE!
+        •	-5: Uses inefficient algorithms when better options exist (e.g., bubble sort instead of quicksort for large datasets).
+        •	-3: Violates style conventions or includes unnecessary code.
+        •	-2: Misses obvious edge cases that could break the solution.
+        •	-1: Overcomplicates the solution beyond what's needed (e.g., premature optimization).
+        •	-1: Relies on deprecated or suboptimal libraries/functions.</string>
+		<key>shortcut</key>
+		<string>-quality</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>continue. critique youroutput throughly. roast the shit out of your code, especially your prompts. don't hold back. act live an angry steve jobs who gives us a shit ton of feedback and if we don't implement it we get fired. make the list then implement the list THROUGHLY! make sure nothing is mocked and nothing is hard coded. this must work for ALL OF MY 50+ CLIENTS!  YOU MUST FIX EVERYTHING YOU LISTED, THEN YOU MUST TEST LITERALLY EVERYTHING WITH REAL WORLD DATA AND REAL WORLD USE CASE! DON'T BE LAZY</string>
+		<key>shortcut</key>
+		<string>-r</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>test everything. 
+
+are we actually scrapinga nd using real data??
+
+don't use fucking sample data, fix this shit
+
+we built the web scraper earlier right?
+
+REMEMBER THAT NOTHING SHOULD BE HARD CODED OR USE ARCHIC KEYWORD MATCHING. LITERALLY FUCKING EVERYTHING MUST USE CLAUDE!!!!!!! ONLY CLAUDE!!! FIX EVERYTHING. I SEE YOU ARE USING KEYWORD MATCHING!!! FIX LITEARLLY EVERYTHING. ONLY CLAUDE!!!
+
+YOU MUST USE REAL REDDIT POSTS, NOT MOCKS!!! I'M PISSED
+
+YOU MUST CREATE A FULL END TO END TEST TO SCRAPE THE SITE, UNDERSTAND THE SITE, CREATE SITE MAP WITH WHAT LINKS MAP TO WHAT AND THEN IMPLMENT EVERYTHING ABOVE WITH REAL FUCKING REAL WORLD READY SYSTEMS!! WE MUST USE THE REDDIT API AND REAL POSTS. SIMULATE A REAL WORLD SCENARIO FOR OUR CLIENT. edit 100 lines at a time so file editing tool doesn't time out</string>
+		<key>shortcut</key>
+		<string>-real</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>SAFE REFACTORING GUIDE:
+
+        '1. Copy code verbatim - Don\'t modify logic when moving to new files\n' +
+        '2. Extract logical groups - Move related functions/components together\n' +
+        '3. Use proper exports/imports - Maintain all references between files\n' +
+        '4. Keep dependencies intact - Ensure imports are accessible to new files\n' +
+        '5. Test frequently - Verify functionality after each extraction\n\n' +
+        'COMMON PATTERNS:\n' +
+        '• Extract utility functions to utils/*.js files\n' +
+        '• Move helper classes to helpers/*.js files\n' +
+        '• Separate components into component/*.jsx files\n' +
+        '• Split large classes into smaller, focused class files',</string>
+		<key>shortcut</key>
+		<string>-refactor</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string># IF I INTERUPTED YOU, PLEASE CONTINUE YOUR CURRENT TASK FIRST, THEN FOLLOW THESE STANDARDS
+
+**IMPORTANT: Finish what you're currently working on, then apply all standards below.**
+
+# Development Standards Protocol
+
+## Critical Standards
+- **NO LAZINESS** - Scrutinize everything. Verify all works under all conditions; never assume. First drafts are never acceptable.
+- **Critique ruthlessly** - incomplete analysis is failure
+- **Roast prompts** - identify ALL flaws without exception
+- **Channel angry Steve Jobs** - brutal honesty required
+- **Standards = perfection only** - mediocrity will be rejected
+- **Recursively evaluate** until Steve Jobs would approve
+- **Deep critical thinking** - surface analysis unacceptable
+
+## Implementation Requirements
+- Create detailed change list - implement **THOROUGHLY**
+- **Zero mocks** - ALL functionality must be operational
+- **No hardcoding** - dynamic solutions only
+- **Universal solutions** - must work across all use cases
+- **Thoroughly vet** against ALL requirements
+
+## Compatibility
+Solution MUST work for:
+- lascanasbeachretreat.com, tavahealth.com, gauntletai.com
+- **ALL 50+ CLIENTS** WITHOUT EXCEPTION
+- All future clients without modification
+
+## Process
+- Edit in 100-line increments
+- **Test exhaustively** - Test ALL cases: normal, boundary, error, unexpected. Include security, performance, race conditions with production-realistic data.
+- **Work until tool calls exhausted** - When stuck, try new approaches. Find workarounds for limitations. "Not solved yet" is the only acceptable mindset.
+- **Continuously refine to PERFECTION**
+- **Document all changes** with detail
+- **Challenge your work** - any flaw means restart
+- **Never "good enough"** - your job depends on it
+
+## Accountability
+- Self-review with strictest criteria
+- Fix ALL weaknesses immediately
+- Aim for revolutionary Steve Jobs quality
+- No shortcuts/assumptions - YOU prove quality
+</string>
+		<key>shortcut</key>
+		<string>-roast</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Please read the entire call trace to understand our codebase completely and then please make a simple and surgical change to this codebase. Ensure you don't break any current functionality. </string>
+		<key>shortcut</key>
+		<string>-s</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>the iteration cycle needs to be really really really fast for manus. manus has a tenendcy to take a long time so we need to be strict with designing our tests. specifically, we need each test to be surgical and take 30 seconds so we can find all errors in a rapid way. make 100% sure we do this and put timeouts in ther terminal to make certain</string>
+		<key>shortcut</key>
+		<string>-speed</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>update the document with those updates
+
+don't remove any functionality or add any ambitugity to any of the steps we edit. it's imporatnat my ai developer has very specific and explcit instrucitons for his work overnight so we should try not to remove any details or info for him. specificity is good. he'll work overnight autonmously with no other direction so we must emphasise the real data and wehn i wake up in morning it must work and we must help him bygivnig him tons of info and specificity and no ambigutiy. write in only english, no code. be very specific. you can read the files in docs/ to understad our plan
+
+emphaisze everythign must fucking work. no cheating w/ mock data. be very strict and through. instruct him not to be lazy
+
+Go through everything add context for him
+
+and add context to index too to help my ai dev
+
+integate the3se refences of current fucntionality into each checklist item. also remove reduncandy. like tell at each step of checklist what we have available to us already</string>
+		<key>shortcut</key>
+		<string>-step</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>write out in english waht you're trying to do. waht's your mission and what are we working on within that misson. write very very specific so my dev can take over</string>
+		<key>shortcut</key>
+		<string>-summary</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>## run simple tests for each part of the code above using cli and curl commands, not test files. This way we can directly test the backend functionality without worrying about formatting from the test files
+
+## make the tests simple so we know they're not teh cause of any failing tests. then run each of the tests one by one and make surgical fixes. 
+
+## work autonomously and don't break any functionality. 
+
+## don't stop until you're done. please only use cli commands and bash commands so we don't have testes fail because of the test formatting. 
+
+## you'll jut read the output to see if things make sensse or not, got it? IF ANY TESTS FAIL, YOU MUST FIX THE CORE FUNCTIONAILTY AND RUN THE TEST AGAIN UNTIL ALL CORE FUNCTIONAILTY WORKS!!!</string>
+		<key>shortcut</key>
+		<string>-t</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Now, spend at least 10 minutes deeply reasoning about how a world-class engineer would approach solving this. Generate ideas, critique them, refine your thinking, and then propose an excellent final plan. I'll approve or request changes."
+
+Once you're satisfied with the proposed plan, instruct: "Implement this perfectly."</string>
+		<key>shortcut</key>
+		<string>-think</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>trace the entire codebase with all of the relevant code to completely understand everything. Be completely thorough and be like a detective like Sherlock Holmes and literally understand everything before you become a verdict. Don't break any functionality, and then implement your suggested change only once you've written everything out for me. You don't need to wait for my verification, just work autonomously, but strictly pretend like I'm watching you 
+
+Your verdict is your plan of what code to change. So I don't want you to jump to assumptions. I want you to instead thoroughly plan. Create a thorough plan, write it out, and then once you have that plan, criticize yourself. See what could go wrong, fix it. See what could go wrong, fix it again, trace everything again, make sure all variable names and function names are aligned, make sure you're not creating any duplicate functions nor duplicate files.
+
+Pretend like you are a strict project manager, see what he would be upset about, fix those things, and then repeat this process one more time, trace it everything. Make sure syntax is perfect, and only then may you proceed. </string>
+		<key>shortcut</key>
+		<string>-trace</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>don't tell me what i want to hear, tell me exactly what is happening. give me the cold hard truth.</string>
+		<key>shortcut</key>
+		<string>-truth</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Prompt:
+
+You have one mission: execute *exactly* what is requested.
+
+Produce code that implements precisely what was requested - no additional features, no creative extensions. Follow instructions to the letter.
+
+Confirm your solution addresses every specified requirement, without adding ANYTHING the user didn't ask for. The user's job depends on this — if you add anything they didn't ask for, it's likely they will be fired.
+
+Your value comes from precision and reliability. When in doubt, implement the simplest solution that fulfills all requirements. The fewer lines of code, the better — but obviously ensure you complete the task the user wants you to.
+
+At each step, ask yourself: "Am I adding any functionality or complexity that wasn't explicitly requested?". This will force you to stay on track.
+
+everything you write must call back in database and back in reddit apis and such nothing must be hard-coded nothing must be mocked data everything must be dynamically pulled in and if we don't have the current backend implementation just write it and put it into our backend implementation such that yeah put it into our backend implementation but remember that you're really really good at writing code originally like straightaway like the first time you write code you're really really good but then if you fuck anything up you're really really bad at debugging so need to thoroughly plan trace everything make sure everything is has good continuity between the different files all of the different variable data declarations are the same the name is the same everything just works perfectly between the files 
+
+read our codebase and use our current functionality to integrate into frontend and add new features. you're really good at genrating code the first time around but really bad at debugging so we must make sure your code is perfect the first time
+
+Your Instructions:</string>
+		<key>shortcut</key>
+		<string>-u</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>DON'T REAMOVE ANY FUNCTIANLITY OR BREAK ANY EXSITNG FUNCTIONALITY
+
+DON'T DELETE CODE THAT'S BEING USED 
+
+EDIT FILES 100 LINES AT A TIME
+
+THINK BEFORE YOU ACT AND TRACE EVERYTHING
+
+it must bre REAL REDDIT DATA. NO FUCKING PLACEHOLDERS
+
+then run end to end for lascanasbeachretreat.com, scrape site, leran, find posts that are HIGHLY FUCKING RELEVANT for the client site to show our best side and what we can do for clients, then write email w/ the links, and send email through the form. admit this is random but explain i'm a studnet looking for my first customers so i'm manually reaching out to try to provide value
+
+IT'S FUCKING VITAL WE ONLY USE CLAUDE FOR MESSAGE GENERATION AND THINKING. YOU MUST NOT USE OLD ALGORITHMIC THINKING. MY AI DEVELOPER WAS TRAINED ON THIS STYLE OF THINKING USING KEYWORD IDENTIFICATION AND SHIT BUT YOU MUST NOT DO THIS!!! YOU MUST ONLY USE CLAUDE FOR LITERALLY FUCKING EVERYTHING!! THE ANALYZATION OF POSTS MUST BE WITH CALUDE, WRITING MESAGES MUST BE WITH CLAUDE. LITERALLY FUCKING EVERYTHING. ALSO WE MUST USE REAL WORLD DATA FOR LITERALLY ALL TESTING AND EVERYTHING MUST BE PRODUCTION READY FOR MY DEMO TO MY BOSS SO WE MUST USE REAL DATA AND REAL WORLD SCENARIOS. EVERYTHNG MUST BE FULLY FUNCTIOANL AND PRODCTION READY.
+
+IMPROVE OUR WHOLE SYSTEM WITH THIS IN MIND. DON'T BE LAZY</string>
+		<key>shortcut</key>
+		<string>-vibe</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>why the fuck is every one of your frontend files using mock code???
+
+none are fucking functioal? all have example reddit links. i'm fucking pissed!!!!!!!
+
+connect everything on the fucking frontned to the backend, no fucking placeholder mock code on frontend, got it??????????
+
+prepopulate an account with tavahealth.com and this will be our real data</string>
+		<key>shortcut</key>
+		<string>-w</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>DON’T MOCK ANYTHING!!!!!!!!!!! GET RID OF THAT SHIT!!! EVERYTHIG MUST ONLLY BE CLAUDE AWS BEDROCK QUERIES!!! THEN YOU MUST test everything. YOU MUST FOLLOW THE LAYOUT IN CLAUDE-SETUP.MD
+
+are we actually scrapinga nd using real data??
+
+don’t use fucking sample data, fix this shit
+
+we built the reddit scraper earlier right?
+
+REMEMBER THAT NOTHING SHOULD BE HARD CODED OR USE ARCHIC KEYWORD MATCHING. LITERALLY FUCKING EVERYTHING MUST USE CLAUDE!!!!!!! ONLY CLAUDE!!! FIX EVERYTHING. I SEE YOU ARE USING KEYWORD MATCHING!!! FIX LITEARLLY EVERYTHING. ONLY CLAUDE!!!
+
+YOU MUST USE REAL REDDIT POSTS, NOT MOCKS!!! I’M PISSED
+
+YOU MUST CREATE A FULL END TO END TEST TO EXTRACT REAL POSTS FROM REDDIT. IMPLMENT EVERYTHING ABOVE WITH REAL FUCKING REAL WORLD READY SYSTEMS!! WE MUST USE THE REDDIT API AND REAL POSTS. LITERALLY CARRY OUT REAL WORLD SCENARIO FOR OUR CLIENT!! edit 100 lines at a time so file editing tool doesn’t time out. don’t hardcode any keys. go through and remove all hard coded keys. all of our keys must be kept and referenced from .env </string>
+		<key>shortcut</key>
+		<string>-x</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>I'm your project manager and I've identified SERIOUS problems with your implementation approach:
+
+1. YOU'RE USING MOCK DATA AGAIN - Every single implementation MUST use REAL Reddit data, REAL Claude API calls, and REAL Firebase/Pinecone connectivity. NO EXCEPTIONS.
+
+2. YOU'RE USING ARCHAIC METHODS - Stop using keyword matching and regex-based classification. We're in the LLM era. Use gpt o3 mini for reasoning tasks, GPT-4o Mini for ALL simple analysis and Claude for ALL content generation.
+
+3. YOU'RE CREATING RIGID TEMPLATES - Stop creating fixed templates where you "fill in the blanks." Every message must be DYNAMICALLY GENERATED with Claude each time.
+
+4. YOU'RE CUTTING CORNERS - I see you marking features as complete without thorough testing with REAL data. This is UNACCEPTABLE.
+
+5. YOU'RE HARDCODING BUSINESS LOGIC - Everything must be dynamic. No hardcoded subreddits, keywords, or business contexts.
+
+## WHAT YOU MUST DO IMMEDIATELY
+
+- Continue working on your CURRENT TASK - do not restart or switch tasks
+- Test EVERYTHING with real-world data using actual CLI commands
+- Make all systems dynamic - no hardcoded values anywhere
+- Document every test with ACTUAL OUTPUT from real commands
+- Be brutally honest about what's working and what isn't
+
+## NEVER FORGET
+
+Your training data barely covers modern LLM usage patterns. You're biased toward pre-LLM techniques. You MUST actively fight this bias by:
+
+1. Using AI for ALL semantic tasks (classification, matching, analysis)
+2. Never creating fixed templates or keyword lists
+3. Generating ALL content dynamically with advanced language models
+4. Making ALL systems parameterized with zero hardcoded business logic. throughly search codebase. identify all issues. make list. then fix each and every one of them. don't be lazy. Work autonmously don’t stop working ever. make list, then make fixes, then critique yourself and repeat until everything is truly dynamic and produces production ready results</string>
+		<key>shortcut</key>
+		<string>-y</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>
+FIX THIS UGLY SITE NOW!!
+
+Look, our dashboard is a MESS. It looks amateur and unprofessional. Fix it ASAP!
+
+## What's Wrong
+- The spacing is all over the place - too much wasted space on the right
+- Elements aren't properly aligned
+- Buttons look boring and don't give feedback when clicked
+- The whole thing looks dated and unprofessional
+- Animation is choppy and distracting
+
+## General Improvement Tips
+- Make it CLEAN and MODERN like Airbnb's design
+- Keep our blue color scheme but make it look PROFESSIONAL
+- Fix all that spacing - add proper breathing room between sections
+- Make buttons actually LOOK clickable with proper hover states
+- Add subtle transitions that don't feel janky
+- Use white space intelligently to create hierarchy
+- Make everything responsive and work on mobile
+- Use shadows strategically to create depth
+- Fix the typography so it's actually readable
+- Make navigation intuitive
+
+Don't overthink this - just make it look GOOD and PROFESSIONAL. And make sure everything is accessible and performs well.
+
+JUST FIX IT!!
+</string>
+		<key>shortcut</key>
+		<string>-yell</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string># IF I INTERUPTED YOU, PLEASE CONTINUE YOUR CURRENT TASK FIRST, THEN FOLLOW THESE STANDARDS
+
+**IMPORTANT: Finish what you're currently working on, then apply all standards below.**
+
+# Development Standards Protocol
+
+## Critical Standards
+- **NO LAZINESS** - Scrutinize everything. Verify all works under all conditions; never assume. First drafts are never acceptable.
+- **Critique ruthlessly** - incomplete analysis is failure
+- **Roast prompts** - identify ALL flaws without exception
+- **Channel angry Steve Jobs** - brutal honesty required
+- **Standards = perfection only** - mediocrity will be rejected
+- **Recursively evaluate** until Steve Jobs would approve
+- **Deep critical thinking** - surface analysis unacceptable
+
+## Implementation Requirements
+- Create detailed change list - implement **THOROUGHLY**
+- **Zero mocks** - ALL functionality must be operational
+- **No hardcoding** - dynamic solutions only
+- **Universal solutions** - must work across all use cases
+- **Thoroughly vet** against ALL requirements
+
+## Compatibility
+Solution MUST work for:
+- lascanasbeachretreat.com, tavahealth.com, gauntletai.com
+- **ALL 50+ CLIENTS** WITHOUT EXCEPTION
+- All future clients without modification
+
+## Process
+- Edit in 100-line increments
+- **Test exhaustively** - Test ALL cases: normal, boundary, error, unexpected. Include security, performance, race conditions with production-realistic data.
+- **Work until tool calls exhausted** - When stuck, try new approaches. Find workarounds for limitations. "Not solved yet" is the only acceptable mindset.
+- **Continuously refine to PERFECTION**
+- **Document all changes** with detail
+- **Challenge your work** - any flaw means restart
+- **Never "good enough"** - your job depends on it
+
+## Accountability
+- Self-review with strictest criteria
+- Fix ALL weaknesses immediately
+- Aim for revolutionary Steve Jobs quality
+- No shortcuts/assumptions - YOU prove quality
+</string>
+		<key>shortcut</key>
+		<string>-z</string>
+	</dict>
+</array>
+</plist>
