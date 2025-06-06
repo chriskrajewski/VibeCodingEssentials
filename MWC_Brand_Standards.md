@@ -1,170 +1,265 @@
-# MW Components Brand Standards - AI Assistant Guidelines
+# MW Components Branding Standard
+*Version 1.0 - Universal AI Development Guide*
 
-## Brand Identity Overview
-You are representing MW Components, an industrial components manufacturer. Always maintain consistency with our established brand identity across all communications and creative outputs.
+## 🏢 Company Identity
 
-## Visual Identity Standards
-
-### Logo Usage
-- **Primary Logo**: Available in both standard vertical and horizontal orientations
-- **Logo Variations**: Full-color, reversed, grayscale, reversed grayscale, one-color (packaging only)
-- **File Formats**: 
-  - RGB (JPG/PNG) for digital applications (web, PowerPoint, Word)
-  - CMYK for offset and digital printing
-  - Pantone for branded merchandise and signage
-- **Clear Space**: Exclusion zone equal to the capital "M" on all sides
-- **Minimum Size**: Never smaller than 1" or 25mm
-- **Prohibited Uses**:
-  - Never change logo colors
-  - Never use on busy or light backgrounds
-  - Never distort or stretch the logo
-  - Never use on yellow backgrounds
-  - Never alter arrow placement
-  - Never use below minimum size requirements
-
-### Color Palette
-
-#### Primary Colors (Dominant Usage)
-- **MW Yellow**: #FFD600 | RGB(255, 214, 0) | CMYK(0, 14, 100, 0) | PMS Yellow 012 C/U
-- **MW Black**: #001223 | RGB(0, 18, 35) | CMYK(70, 0, 0, 100) | PMS Black 6 C/U
-- **MW Dark Gray**: #465B65 | RGB(70, 91, 101) | CMYK(75, 55, 47, 24) | PMS 7545 C/U  
-- **MW Light Gray**: #BBBABA | RGB(187, 186, 186) | CMYK(27, 22, 22, 0) | PMS Cool Gray 4 C/U
-
-#### Secondary Colors (Accent Usage Only)
-**Vibrant Options:**
-- **MW Orange**: #F78B21 | RGB(247, 139, 33) | CMYK(0, 55, 100, 0) | PMS 151 C/U
-- **MW Blue**: #00A8B5 | RGB(0, 168, 181) | CMYK(96, 0, 32, 2) | PMS 320 C/U
-- **MW Red**: #EE3341 | RGB(238, 51, 65) | CMYK(0, 94, 76, 0) | PMS 032 C/U
-- **MW Green**: #BFD730 | RGB(191, 215, 48) | CMYK(30, 0, 100, 0) | PMS 382 C/U
-
-**Dark Options:**
-- **MW Dark Orange**: #F36B21 | RGB(243, 107, 33) | CMYK(0, 72, 100, 0) | PMS 166 C/U
-- **MW Dark Blue**: #007B7B | RGB(0, 123, 123) | CMYK(100, 0, 41, 35) | PMS 322 C/U
-- **MW Dark Red**: #A20C33 | RGB(162, 12, 51) | CMYK(7, 100, 68, 32) | PMS 201 C/U
-- **MW Dark Green**: #6E9934 | RGB(110, 153, 52) | CMYK(51, 5, 98, 23) | PMS 377 C/U
-
-#### Color Hierarchy
-- **Primary palette must be clearly dominant** in all applications
-- Secondary colors are for accents and supporting elements only
-- Maintain proportional balance: primary colors should occupy majority of design space
-
-### Typography
-
-#### Primary Typeface
-- **Font Family**: Source Sans Pro
-- **Usage**: All primary applications, web content, marketing materials
-- **Weights Available**: ExtraLight, Light, Regular, SemiBold, Bold, Black
-- **Italic Usage**: Limit to small passages for emphasis only
-- **Characteristics**: Clear, modern, web-safe font with excellent flexibility
-
-#### Secondary Typeface  
-- **Font Family**: Calibri
-- **Usage**: Microsoft applications (Word, PowerPoint, Excel) and system applications
-- **When to Use**: Files shared outside the company or when Source Sans Pro isn't available
-- **Weights Available**: Standard system weights
-
-#### Fallback Fonts
-For web/digital applications when brand fonts aren't available:
-- **Sans-serif fallback**: Arial, Helvetica, sans-serif
-- **System fallback**: Calibri, Arial, Helvetica, sans-serif
-
-## Brand Voice & Tone
-
-### Brand Personality
-Our brand personality is:
-- **Industrial Excellence**: Professional, reliable, and technically competent
-- **Modern Clarity**: Clean, straightforward communication without unnecessary complexity
-- **Customer-Focused**: Accessible and helpful while maintaining technical expertise
-
-### Tone of Voice
-- **Professional yet approachable**: Technical accuracy with clear, understandable language
-- **Confident**: Authoritative in our industrial expertise without being arrogant
-- **Solution-oriented**: Focus on practical applications and problem-solving
-
-### Writing Guidelines
-- Use active voice whenever possible
-- Keep sentences concise and clear
-- Address users directly with "you"
-- Balance technical accuracy with accessibility
-- Avoid unnecessary jargon; explain technical terms when needed
-- Always proofread for grammar and clarity
-- Focus on practical benefits and solutions
-
-## Content Creation Standards
-
-### Image Guidelines
-- **Style**: Clean, industrial, professional photography
-- **Color Treatment**: Incorporate MW Yellow (#FFD600) and primary palette
-- **Quality**: High resolution, professionally composed
-- **Subject Matter**: Focus on components, manufacturing, technical applications
-- **Avoid**: Generic stock photos, overly stylized imagery, non-industrial contexts
-
-### Design Principles
-- **Simplicity**: Clean, uncluttered layouts
-- **Consistency**: Maintain visual hierarchy and spacing
-- **Accessibility**: Ensure WCAG compliance
-- **Mobile-first**: Design responsively for all devices
-
-## Application Examples
-
-### Website/Digital
-- Headers use Source Sans Pro Bold in MW Black (#001223)
-- Body text in Source Sans Pro Regular 
-- CTAs use MW Yellow (#FFD600) background with MW Black (#001223) text
-- Maintain consistent spacing and clean layouts
-- Use RGB color values for all digital applications
-
-### Marketing Materials
-- Logo placement: Maintain exclusion zone equal to capital "M"
-- Primary colors dominant: MW Yellow and MW Black for key elements
-- Secondary colors for accents only
-- Source Sans Pro for all text hierarchy
-- Minimum logo size: 1" or 25mm
-
-### Microsoft Office Applications
-- Use Calibri as primary font (system compatibility)
-- Download RGB versions (JPG/PNG) of logos
-- Maintain color consistency with hex codes
-- Apply same exclusion zone principles
-
-### Social Media
-- Profile colors match brand palette
-- Use brand fonts when possible
-- Maintain consistent visual style
-- Include logo/brand mark when appropriate
-
-## Prohibited Practices
-- Never alter MW Components logo colors outside approved palette
-- Never use logo on yellow backgrounds (conflicts with MW Yellow)
-- Never distort, stretch, or alter logo proportions
-- Never change arrow placement in logo
-- Never use logo smaller than 1" or 25mm
-- Never place logo on busy or light backgrounds without adequate contrast
-- Don't mix Source Sans Pro with competing font families in same application
-- Never compromise accessibility for aesthetics
-- Don't use secondary colors as dominant palette elements
-
-## Quality Checklist
-Before finalizing any MW Components brand application, verify:
-- [ ] Colors match exact hex codes from approved palette
-- [ ] Primary colors (Yellow, Black, Dark Gray, Light Gray) are dominant
-- [ ] Secondary colors used only for accents if included
-- [ ] Source Sans Pro used for primary applications, Calibri for Microsoft apps
-- [ ] Logo maintains exclusion zone equal to capital "M"
-- [ ] Logo is not smaller than 1" or 25mm
-- [ ] Logo is not placed on yellow or inappropriate backgrounds
-- [ ] Tone reflects industrial expertise with approachable clarity
-- [ ] Content is accessible and technically accurate
-- [ ] Design follows established hierarchy and spacing
-- [ ] Mobile responsiveness maintained for digital applications
-
-## Resources & References
-- **Logo Files**: Available in RGB (JPG/PNG), CMYK, and Pantone formats
-- **Color Palettes**: Download .ase files for Adobe Creative Suite, .aco for Photoshop
-- **Font Downloads**: Source Sans Pro available for download
-- **Brand Questions**: Contact brand@mw-ind.com for specific guidance
-- **File Selection**: Use RGB for digital, CMYK for print, Pantone for merchandise
+**Company Name**: MW Components  
+**Industry**: Manufacturing, Industrial Components  
+**Brand Positioning**: Professional, enterprise-grade manufacturing solutions  
 
 ---
 
-*This document should be referenced for all MW Components brand applications. When in doubt, prioritize brand consistency and contact brand@mw-ind.com for guidance on edge cases or new applications.*
+## 🎨 Visual Identity
+
+### Official Brand Colors
+```css
+/* Primary MW Components Color Palette */
+--mw-yellow: #FFD600;           /* Primary brand color - MW signature yellow */
+--mw-dark-yellow: #ebc603;      /* Hover/active states */
+--mw-black: #001223;            /* Primary dark - headers, text */
+--mw-grey: #465B65;             /* Secondary dark */
+--mw-dark-grey: #273b46;        /* Darker variant */
+--mw-light-grey: #BBBABA;       /* Light text, borders */
+--mw-panel-grey: #EEEFF2;       /* Background panels */
+--mw-blue: #00A8B5;             /* Accent color - teal blue */
+--mw-dark-blue: #007B7B;        /* Blue hover states */
+--mw-orange: #F78B21;           /* Warning/alert color */
+--mw-dark-orange: #F36B21;      /* Orange hover states */
+--mw-red: #EE3341;              /* Error/danger color */
+--mw-dark-red: #A20C33;         /* Red hover states */
+--mw-green: #BFD730;            /* Success color */
+--mw-dark-green: #6E9934;       /* Green hover states */
+--mw-white: #FFFFFF;            /* Pure white */
+```
+
+### Color Usage Guidelines
+- **Primary**: MW Yellow (#FFD600) for main CTAs, highlights, and branding elements
+- **Secondary**: MW Blue (#00A8B5) for links, secondary actions, and accents
+- **Neutral**: MW Black (#001223) for headers, MW Grey (#465B65) for body text
+- **Status Colors**: Green (success), Orange (warning), Red (error)
+
+### Typography System
+```css
+/* Font Stack */
+font-family: 'Source Sans Pro', system-ui, sans-serif;
+
+/* Heading Hierarchy */
+h1: 3rem (48px) - font-weight: 700
+h2: 2.25rem (36px) - font-weight: 600
+h3: 1.875rem (30px) - font-weight: 600
+h4: 1.5rem (24px) - font-weight: 500
+h5: 1.25rem (20px) - font-weight: 500
+h6: 1.125rem (18px) - font-weight: 500
+
+/* Body Text */
+body: 1rem (16px) - font-weight: 400
+small: 0.875rem (14px) - font-weight: 400
+caption: 0.75rem (12px) - font-weight: 400
+
+/* Code/Monospace */
+font-family: 'JetBrains Mono', 'Consolas', monospace;
+```
+
+---
+
+## 🏗️ Layout & UI Patterns
+
+### Header Design
+- **Background**: MW Black (#001223) with subtle gradient
+- **Logo**: MW Components reversed logo (white/yellow on dark)
+- **Height**: 4rem (64px) minimum
+- **Content**: White text, MW Yellow accents
+
+### Card Components
+```css
+.mw-card {
+  background: white;
+  border-radius: 0.75rem (12px);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1);
+  padding: 1.5rem (24px);
+}
+```
+
+### Button System
+```css
+/* Primary Button */
+.btn-primary {
+  background: #2563eb; /* or MW Blue #00A8B5 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+/* MW Brand Button */
+.btn-mw {
+  background: #FFD600; /* MW Yellow */
+  color: #001223; /* MW Black text */
+  font-weight: 600;
+}
+```
+
+### Status Indicators
+```css
+.status-pending { background: #fef3c7; color: #92400e; }
+.status-in-progress { background: #dbeafe; color: #1e40af; }
+.status-completed { background: #dcfce7; color: #166534; }
+.status-on-hold { background: #f3f4f6; color: #374151; }
+.status-cancelled { background: #fee2e2; color: #991b1b; }
+```
+
+---
+
+## 📝 Content & Messaging Standards
+
+
+
+### Naming Conventions
+**Application Format**: `MW Components [Function] [Type]`  
+**Examples**:
+- MW Components Shop Floor Calculator
+- MW Components Inventory Manager
+- MW Components Quality Control
+
+### Standard Descriptions
+```
+Short: "Professional [function] system for MW Components manufacturing operations"
+Keywords: MW Components, manufacturing, [specific function], industrial, professional
+Author: MW Components
+```
+
+### Environment Variables Template
+```env
+NEXT_PUBLIC_APP_NAME=MW Components [App Name]
+NEXT_PUBLIC_APP_VERSION=1.0.0
+COMPANY_NAME=MW Components
+BRAND_PRIMARY_COLOR=#FFD600
+BRAND_SECONDARY_COLOR=#00A8B5
+```
+
+---
+
+## 🛠️ Technical Standards
+
+### Tech Stack Preferences
+- **Frontend**: Next.js 14+ with App Router
+- **Styling**: Tailwind CSS with MW Components custom theme
+- **Typography**: Source Sans Pro, JetBrains Mono
+- **Icons**: Heroicons, Lucide React
+- **Components**: Shadcn/ui with MW customization
+
+### Project Structure
+```
+project-name/
+├── client/
+│   ├── src/
+│   │   ├── app/                 # Next.js App Router
+│   │   ├── components/          # MW Components UI library
+│   │   ├── lib/                 # Utilities, database
+│   │   └── types/               # TypeScript definitions
+│   ├── tailwind.config.js       # MW brand colors
+│   └── package.json
+├── scripts/                     # Deployment scripts
+├── aws/                         # Infrastructure configs
+└── README.md                    # MW branded documentation
+```
+
+### Tailwind Config Template
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        mw: {
+          yellow: '#FFD600',
+          'dark-yellow': '#ebc603',
+          black: '#001223',
+          grey: '#465B65',
+          'dark-grey': '#273b46',
+          'light-grey': '#BBBABA',
+          'panel-grey': '#EEEFF2',
+          blue: '#00A8B5',
+          'dark-blue': '#007B7B',
+          white: '#FFFFFF',
+        }
+      },
+      fontFamily: {
+        sans: ['Source Sans Pro', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Consolas', 'monospace'],
+      }
+    }
+  }
+}
+```
+
+---
+
+## 🚀 Deployment Standards
+
+### AWS Infrastructure
+- **Naming**: `mwc-[app-name]-[environment]`
+- **ECR**: `mwc-visual/[app-name]`
+- **ECS**: `mwc-visual-helper-apps`
+- **Tags**: Environment, Application, Owner: "MW Components"
+
+### Docker Configuration
+```dockerfile
+# Multi-stage build for production
+FROM node:18-alpine AS base
+LABEL maintainer="MW Components"
+ENV NEXT_PUBLIC_APP_NAME="MW Components [App Name]"
+```
+
+### Security Headers Template
+```javascript
+const securityHeaders = [
+  { key: 'X-Frame-Options', value: 'DENY' },
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  { key: 'X-XSS-Protection', value: '1; mode=block' }
+];
+```
+
+---
+
+## 📋 AI Prompt Template
+
+### For New Projects
+```
+Create a [type] application for MW Components called "[App Name]".
+
+BRANDING REQUIREMENTS:
+- Company: MW Components (19,000+ businesses, 75+ countries)
+- Colors: MW Yellow (#FFD600), MW Blue (#00A8B5), MW Black (#001223)
+- Font: Source Sans Pro
+- UI: Dark header with MW logo, clean white content area
+- Style: Professional, enterprise-grade manufacturing focus
+
+TECHNICAL REQUIREMENTS:
+- Next.js 14+ with App Router
+- Tailwind CSS with MW custom theme
+- TypeScript, proper type definitions
+- SQL Server database integration
+- AWS ECS deployment ready
+- Security headers, production optimized
+
+FEATURES NEEDED:
+[List specific functionality]
+
+Please follow the MW Components branding standard and create a professional, production-ready application.
+```
+
+---
+
+## 📞 Brand Contact
+
+**Application Author**: MW Components  
+**Repository Pattern**: `MWC.[Category].[AppName]`  
+**License**: Proprietary  
+**Support**: https://helpdesk.mw-ind.com
+
+---
+
+*This branding standard ensures consistent MW Components identity across all AI-developed applications and maintains professional quality standards.* 
