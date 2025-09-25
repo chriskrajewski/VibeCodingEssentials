@@ -13,23 +13,25 @@
 
 ### Official Brand Colors
 
-/* Primary MW Components Color Palette */
---mw-yellow: `#FFD600`;           /* Primary brand color - MW signature yellow */
---mw-dark-yellow: `#ebc603`;      /* Hover/active states */
---mw-black: `#001223`;            /* Primary dark - headers, text */
---mw-grey: `#465B65`;             /* Secondary dark */
---mw-dark-grey: `#273b46`;        /* Darker variant */
---mw-light-grey: `#BBBABA`;       /* Light text, borders */
---mw-panel-grey: `#EEEFF2`;       /* Background panels */
---mw-blue: `#00A8B5`;             /* Accent color - teal blue */
---mw-dark-blue: `#007B7B`;        /* Blue hover states */
---mw-orange: `#F78B21`;           /* Warning/alert color */
---mw-dark-orange: `#F36B21`;      /* Orange hover states */
---mw-red: `#EE3341`;              /* Error/danger color */
---mw-dark-red: `#A20C33`;         /* Red hover states */
---mw-green: `#BFD730`;            /* Success color */
---mw-dark-green: `#6E9934`;       /* Green hover states */
---mw-white: `#FFFFFF`;            /* Pure white */
+## Primary MW Components Color Palette
+
+<span style="color: #FFD600">■</span> `#FFD600` **MW Yellow** - Primary brand color - MW signature yellow  
+<span style="color: #ebc603">■</span> `#ebc603` **MW Dark Yellow** - Hover/active states  
+<span style="color: #001223">■</span> `#001223` **MW Black** - Primary dark - headers, text  
+<span style="color: #465B65">■</span> `#465B65` **MW Grey** - Secondary dark  
+<span style="color: #273b46">■</span> `#273b46` **MW Dark Grey** - Darker variant  
+<span style="color: #BBBABA">■</span> `#BBBABA` **MW Light Grey** - Light text, borders  
+<span style="color: #EEEFF2">■</span> `#EEEFF2` **MW Panel Grey** - Background panels  
+<span style="color: #00A8B5">■</span> `#00A8B5` **MW Blue** - Accent color - teal blue  
+<span style="color: #007B7B">■</span> `#007B7B` **MW Dark Blue** - Blue hover states  
+<span style="color: #F78B21">■</span> `#F78B21` **MW Orange** - Warning/alert color  
+<span style="color: #F36B21">■</span> `#F36B21` **MW Dark Orange** - Orange hover states  
+<span style="color: #EE3341">■</span> `#EE3341` **MW Red** - Error/danger color  
+<span style="color: #A20C33">■</span> `#A20C33` **MW Dark Red** - Red hover states  
+<span style="color: #BFD730">■</span> `#BFD730` **MW Green** - Success color  
+<span style="color: #6E9934">■</span> `#6E9934` **MW Dark Green** - Green hover states  
+<span style="color: #FFFFFF">■</span> `#FFFFFF` **MW White** - Pure white
+
 
 ### Color Usage Guidelines
 - **Primary**: MW Yellow (#FFD600) for main CTAs, highlights, and branding elements
