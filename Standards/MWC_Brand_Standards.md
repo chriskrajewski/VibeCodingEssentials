@@ -12,10 +12,10 @@
 ## 🎨 Visual Identity
 
 ### Official Brand Colors
-``` css
+
 /* Primary MW Components Color Palette */
 --mw-yellow: `#FFD600`;           /* Primary brand color - MW signature yellow */
---mw-dark-yellow: `#ebc603;`      /* Hover/active states */
+--mw-dark-yellow: `#ebc603`;      /* Hover/active states */
 --mw-black: `#001223`;            /* Primary dark - headers, text */
 --mw-grey: `#465B65`;             /* Secondary dark */
 --mw-dark-grey: `#273b46`;        /* Darker variant */
@@ -30,7 +30,6 @@
 --mw-green: `#BFD730`;            /* Success color */
 --mw-dark-green: `#6E9934`;       /* Green hover states */
 --mw-white: `#FFFFFF`;            /* Pure white */
-```
 
 ### Color Usage Guidelines
 - **Primary**: MW Yellow (#FFD600) for main CTAs, highlights, and branding elements
