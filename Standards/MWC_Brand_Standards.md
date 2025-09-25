@@ -15,22 +15,24 @@
 
 ## Primary MW Components Color Palette
 
-<span style="color: #FFD600">■</span> `#FFD600` **MW Yellow** - Primary brand color - MW signature yellow  
-<span style="color: #ebc603">■</span> `#ebc603` **MW Dark Yellow** - Hover/active states  
-<span style="color: #001223">■</span> `#001223` **MW Black** - Primary dark - headers, text  
-<span style="color: #465B65">■</span> `#465B65` **MW Grey** - Secondary dark  
-<span style="color: #273b46">■</span> `#273b46` **MW Dark Grey** - Darker variant  
-<span style="color: #BBBABA">■</span> `#BBBABA` **MW Light Grey** - Light text, borders  
-<span style="color: #EEEFF2">■</span> `#EEEFF2` **MW Panel Grey** - Background panels  
-<span style="color: #00A8B5">■</span> `#00A8B5` **MW Blue** - Accent color - teal blue  
-<span style="color: #007B7B">■</span> `#007B7B` **MW Dark Blue** - Blue hover states  
-<span style="color: #F78B21">■</span> `#F78B21` **MW Orange** - Warning/alert color  
-<span style="color: #F36B21">■</span> `#F36B21` **MW Dark Orange** - Orange hover states  
-<span style="color: #EE3341">■</span> `#EE3341` **MW Red** - Error/danger color  
-<span style="color: #A20C33">■</span> `#A20C33` **MW Dark Red** - Red hover states  
-<span style="color: #BFD730">■</span> `#BFD730` **MW Green** - Success color  
-<span style="color: #6E9934">■</span> `#6E9934` **MW Dark Green** - Green hover states  
-<span style="color: #FFFFFF">■</span> `#FFFFFF` **MW White** - Pure white
+![#FFD600](https://via.placeholder.com/15/FFD600/000000?text=+) `#FFD600` **MW Yellow** - Primary brand color - MW signature yellow  
+![#ebc603](https://via.placeholder.com/15/ebc603/000000?text=+) `#ebc603` **MW Dark Yellow** - Hover/active states  
+![#001223](https://via.placeholder.com/15/001223/000000?text=+) `#001223` **MW Black** - Primary dark - headers, text  
+![#465B65](https://via.placeholder.com/15/465B65/000000?text=+) `#465B65` **MW Grey** - Secondary dark  
+![#273b46](https://via.placeholder.com/15/273b46/000000?text=+) `#273b46` **MW Dark Grey** - Darker variant  
+![#BBBABA](https://via.placeholder.com/15/BBBABA/000000?text=+) `#BBBABA` **MW Light Grey** - Light text, borders  
+![#EEEFF2](https://via.placeholder.com/15/EEEFF2/000000?text=+) `#EEEFF2` **MW Panel Grey** - Background panels  
+![#00A8B5](https://via.placeholder.com/15/00A8B5/000000?text=+) `#00A8B5` **MW Blue** - Accent color - teal blue  
+![#007B7B](https://via.placeholder.com/15/007B7B/000000?text=+) `#007B7B` **MW Dark Blue** - Blue hover states  
+![#F78B21](https://via.placeholder.com/15/F78B21/000000?text=+) `#F78B21` **MW Orange** - Warning/alert color  
+![#F36B21](https://via.placeholder.com/15/F36B21/000000?text=+) `#F36B21` **MW Dark Orange** - Orange hover states  
+![#EE3341](https://via.placeholder.com/15/EE3341/000000?text=+) `#EE3341` **MW Red** - Error/danger color  
+![#A20C33](https://via.placeholder.com/15/A20C33/000000?text=+) `#A20C33` **MW Dark Red** - Red hover states  
+![#BFD730](https://via.placeholder.com/15/BFD730/000000?text=+) `#BFD730` **MW Green** - Success color  
+![#6E9934](https://via.placeholder.com/15/6E9934/000000?text=+) `#6E9934` **MW Dark Green** - Green hover states  
+![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` **MW White** - Pure white
+
+This creates small 15x15 pixel color squares that should display properly in GitHub markdown!
 
 
 ### Color Usage Guidelines
