@@ -34,9 +34,9 @@
 
 
 ### Color Usage Guidelines
-- **Primary**: MW Yellow (#FFD600) for main CTAs, highlights, and branding elements
-- **Secondary**: MW Blue (#00A8B5) for links, secondary actions, and accents
-- **Neutral**: MW Black (#001223) for headers, MW Grey (#465B65) for body text
+- **Primary**: MW Yellow (![#FFD600](https://img.shields.io/badge/-%23FFD600-FFD600?style=flat-square&logoColor=white)) for main CTAs, highlights, and branding elements
+- **Secondary**: MW Blue (![#00A8B5](https://img.shields.io/badge/-%2300A8B5-00A8B5?style=flat-square&logoColor=white)) for links, secondary actions, and accents
+- **Neutral**: MW Black ![#001223](https://img.shields.io/badge/-%23001223-001223?style=flat-square&logoColor=white)(#001223) for headers, MW Grey (![#465B65](https://img.shields.io/badge/-%23465B65-465B65?style=flat-square&logoColor=white)) for body text
 - **Status Colors**: Green (success), Orange (warning), Red (error)
 
 ### Typography System
@@ -66,7 +66,7 @@ font-family: 'JetBrains Mono', 'Consolas', monospace;
 ## 🏗️ Layout & UI Patterns
 
 ### Header Design
-- **Background**: MW Black (#001223) with subtle gradient
+- **Background**: MW Black (![#001223](https://img.shields.io/badge/-%23001223-001223?style=flat-square&logoColor=white)) with subtle gradient
 - **Logo**: MW Components reversed logo (white/yellow on dark)
 - **Height**: 4rem (64px) minimum
 - **Content**: White text, MW Yellow accents
