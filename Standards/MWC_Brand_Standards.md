@@ -12,24 +12,24 @@
 ## 🎨 Visual Identity
 
 ### Official Brand Colors
-```css
+``` css
 /* Primary MW Components Color Palette */
---mw-yellow: #FFD600;           /* Primary brand color - MW signature yellow */
---mw-dark-yellow: #ebc603;      /* Hover/active states */
---mw-black: #001223;            /* Primary dark - headers, text */
---mw-grey: #465B65;             /* Secondary dark */
---mw-dark-grey: #273b46;        /* Darker variant */
---mw-light-grey: #BBBABA;       /* Light text, borders */
---mw-panel-grey: #EEEFF2;       /* Background panels */
---mw-blue: #00A8B5;             /* Accent color - teal blue */
---mw-dark-blue: #007B7B;        /* Blue hover states */
---mw-orange: #F78B21;           /* Warning/alert color */
---mw-dark-orange: #F36B21;      /* Orange hover states */
---mw-red: #EE3341;              /* Error/danger color */
---mw-dark-red: #A20C33;         /* Red hover states */
---mw-green: #BFD730;            /* Success color */
---mw-dark-green: #6E9934;       /* Green hover states */
---mw-white: #FFFFFF;            /* Pure white */
+--mw-yellow: `#FFD600`;           /* Primary brand color - MW signature yellow */
+--mw-dark-yellow: `#ebc603;`      /* Hover/active states */
+--mw-black: `#001223`;            /* Primary dark - headers, text */
+--mw-grey: `#465B65`;             /* Secondary dark */
+--mw-dark-grey: `#273b46`;        /* Darker variant */
+--mw-light-grey: `#BBBABA`;       /* Light text, borders */
+--mw-panel-grey: `#EEEFF2`;       /* Background panels */
+--mw-blue: `#00A8B5`;             /* Accent color - teal blue */
+--mw-dark-blue: `#007B7B`;        /* Blue hover states */
+--mw-orange: `#F78B21`;           /* Warning/alert color */
+--mw-dark-orange: `#F36B21`;      /* Orange hover states */
+--mw-red: `#EE3341`;              /* Error/danger color */
+--mw-dark-red: `#A20C33`;         /* Red hover states */
+--mw-green: `#BFD730`;            /* Success color */
+--mw-dark-green: `#6E9934`;       /* Green hover states */
+--mw-white: `#FFFFFF`;            /* Pure white */
 ```
 
 ### Color Usage Guidelines
