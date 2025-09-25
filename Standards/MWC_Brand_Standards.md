@@ -15,24 +15,22 @@
 
 ## Primary MW Components Color Palette
 
-![#FFD600](https://via.placeholder.com/15/FFD600/000000?text=+) `#FFD600` **MW Yellow** - Primary brand color - MW signature yellow  
-![#ebc603](https://via.placeholder.com/15/ebc603/000000?text=+) `#ebc603` **MW Dark Yellow** - Hover/active states  
-![#001223](https://via.placeholder.com/15/001223/000000?text=+) `#001223` **MW Black** - Primary dark - headers, text  
-![#465B65](https://via.placeholder.com/15/465B65/000000?text=+) `#465B65` **MW Grey** - Secondary dark  
-![#273b46](https://via.placeholder.com/15/273b46/000000?text=+) `#273b46` **MW Dark Grey** - Darker variant  
-![#BBBABA](https://via.placeholder.com/15/BBBABA/000000?text=+) `#BBBABA` **MW Light Grey** - Light text, borders  
-![#EEEFF2](https://via.placeholder.com/15/EEEFF2/000000?text=+) `#EEEFF2` **MW Panel Grey** - Background panels  
-![#00A8B5](https://via.placeholder.com/15/00A8B5/000000?text=+) `#00A8B5` **MW Blue** - Accent color - teal blue  
-![#007B7B](https://via.placeholder.com/15/007B7B/000000?text=+) `#007B7B` **MW Dark Blue** - Blue hover states  
-![#F78B21](https://via.placeholder.com/15/F78B21/000000?text=+) `#F78B21` **MW Orange** - Warning/alert color  
-![#F36B21](https://via.placeholder.com/15/F36B21/000000?text=+) `#F36B21` **MW Dark Orange** - Orange hover states  
-![#EE3341](https://via.placeholder.com/15/EE3341/000000?text=+) `#EE3341` **MW Red** - Error/danger color  
-![#A20C33](https://via.placeholder.com/15/A20C33/000000?text=+) `#A20C33` **MW Dark Red** - Red hover states  
-![#BFD730](https://via.placeholder.com/15/BFD730/000000?text=+) `#BFD730` **MW Green** - Success color  
-![#6E9934](https://via.placeholder.com/15/6E9934/000000?text=+) `#6E9934` **MW Dark Green** - Green hover states  
-![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` **MW White** - Pure white
-
-This creates small 15x15 pixel color squares that should display properly in GitHub markdown!
+![#FFD600](https://img.shields.io/badge/-%23FFD600-FFD600?style=flat-square&logoColor=white) **MW Yellow** - Primary brand color - MW signature yellow  
+![#ebc603](https://img.shields.io/badge/-%23ebc603-ebc603?style=flat-square&logoColor=white) **MW Dark Yellow** - Hover/active states  
+![#001223](https://img.shields.io/badge/-%23001223-001223?style=flat-square&logoColor=white) **MW Black** - Primary dark - headers, text  
+![#465B65](https://img.shields.io/badge/-%23465B65-465B65?style=flat-square&logoColor=white) **MW Grey** - Secondary dark  
+![#273b46](https://img.shields.io/badge/-%23273b46-273b46?style=flat-square&logoColor=white) **MW Dark Grey** - Darker variant  
+![#BBBABA](https://img.shields.io/badge/-%23BBBABA-BBBABA?style=flat-square&logoColor=white) **MW Light Grey** - Light text, borders  
+![#EEEFF2](https://img.shields.io/badge/-%23EEEFF2-EEEFF2?style=flat-square&logoColor=white) **MW Panel Grey** - Background panels  
+![#00A8B5](https://img.shields.io/badge/-%2300A8B5-00A8B5?style=flat-square&logoColor=white) **MW Blue** - Accent color - teal blue  
+![#007B7B](https://img.shields.io/badge/-%23007B7B-007B7B?style=flat-square&logoColor=white) **MW Dark Blue** - Blue hover states  
+![#F78B21](https://img.shields.io/badge/-%23F78B21-F78B21?style=flat-square&logoColor=white) **MW Orange** - Warning/alert color  
+![#F36B21](https://img.shields.io/badge/-%23F36B21-F36B21?style=flat-square&logoColor=white) **MW Dark Orange** - Orange hover states  
+![#EE3341](https://img.shields.io/badge/-%23EE3341-EE3341?style=flat-square&logoColor=white) **MW Red** - Error/danger color  
+![#A20C33](https://img.shields.io/badge/-%23A20C33-A20C33?style=flat-square&logoColor=white) **MW Dark Red** - Red hover states  
+![#BFD730](https://img.shields.io/badge/-%23BFD730-BFD730?style=flat-square&logoColor=white) **MW Green** - Success color  
+![#6E9934](https://img.shields.io/badge/-%236E9934-6E9934?style=flat-square&logoColor=white) **MW Dark Green** - Green hover states  
+![#FFFFFF](https://img.shields.io/badge/-%23FFFFFF-FFFFFF?style=flat-square&logoColor=black) **MW White** - Pure white
 
 
 ### Color Usage Guidelines
