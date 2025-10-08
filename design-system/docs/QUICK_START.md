@@ -37,7 +37,7 @@ Copy these files from the `design-system/` directory to your project:
 
 ### Step 3: Import Styles (30 sec)
 
-In your app entry point (e.g., `app.tsx`, `main.tsx`, or `_app.tsx`):
+The `globals.css` file already imports Tailwind and declares `@source` globs for `pages/`, `components/`, `examples/`, and `lib/` so all utility classes from your React files are picked up automatically. Just import it in your app entry point (e.g., `app.tsx`, `main.tsx`, or `_app.tsx`):
 
 ```tsx
 import './globals.css';

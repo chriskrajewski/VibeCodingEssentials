@@ -8,11 +8,11 @@ type ButtonVariant = "primary" | "secondary" | "ghost" | "danger" | "mw" | "outl
 type ButtonSize = "xs" | "sm" | "md" | "lg";
 
 const variantStyles: Record<ButtonVariant, string> = {
-  primary: "bg-mw-blue text-white hover:bg-mw-dark-blue",
+  primary: "bg-mw-yellow text-mw-black shadow-sm hover:bg-mw-dark-yellow",
   secondary: "bg-white text-mw-blue border border-mw-blue hover:bg-mw-blue/10",
-  ghost: "bg-transparent text-mw-blue hover:bg-mw-blue/10",
+  ghost: "bg-transparent text-mw-light-grey hover:bg-mw-blue/10",
   danger: "bg-mw-red text-white hover:bg-mw-dark-red",
-  mw: "bg-mw-yellow text-mw-black shadow-sm hover:bg-mw-dark-yellow",
+  mw: "bg-mw-blue text-mw-white shadow-sm hover:bg-mw-dark-blue",
   outline: "bg-white text-mw-blue border border-mw-blue hover:bg-mw-blue/10",
   default: "bg-mw-blue text-white hover:bg-mw-dark-blue",
 };

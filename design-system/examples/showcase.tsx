@@ -22,22 +22,27 @@ import {
   Label,
   Textarea,
 } from '../components/ui';
+import Image from "next/image";
 
 export function ComponentShowcase() {
   return (
-    <div className="min-h-screen bg-mw-panel">
+    <div className="min-h-screen bg-mw-card">
       {/* Navigation */}
-      <nav className="mw-card rounded-none border-b">
+      <nav className="mw-black bg-mw-black rounded-none border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-8">
               <div className="flex items-center gap-2">
-                <div className="h-8 w-8 rounded bg-mw-blue flex items-center justify-center text-white font-bold">
-                  MW
-                </div>
-                <span className="text-xl font-semibold text-mw-black">
-                  MW Components
-                </span>
+                <span className="text-xl font-semibold text-mw-white">
+                          <Image
+            src="https://mwi-ecommerce-inventory.s3.us-east-2.amazonaws.com/mw_horizontal.png"
+            alt="MW Components"
+            width="256"
+            height="256"
+            priority
+            className="transition-all duration-200"
+          />
+          </span>
               </div>
               <div className="hidden md:flex gap-1">
                 <Button variant="ghost" size="sm">Dashboard</Button>
@@ -49,7 +54,7 @@ export function ComponentShowcase() {
             <div className="flex items-center gap-3">
               <Button variant="ghost" size="sm">Settings</Button>
               <Avatar className="h-8 w-8">
-                <AvatarFallback>JD</AvatarFallback>
+                <AvatarFallback>CK</AvatarFallback>
               </Avatar>
             </div>
           </div>

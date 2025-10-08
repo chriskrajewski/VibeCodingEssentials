@@ -1,2 +1,4 @@
 .DS_Store
 /snap_components
+/design-system/.next
+/design-system/node_modules

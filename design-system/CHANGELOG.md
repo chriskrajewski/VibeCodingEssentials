@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 2025-01-08
+
+### 🛠️ Fixes
+- Restored the Tailwind CSS configuration file so custom MW design tokens are compiled and available in every environment.
+- Declared explicit content sources in `globals.css` to guarantee Tailwind scans all React and documentation directories during builds.
+
 ## [1.1.0] - 2025-01-07
 
 ### 🎨 Major Redesign
