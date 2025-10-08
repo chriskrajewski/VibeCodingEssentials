@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-mw-yellow: #FFD600;
+  --color-mw-dark-yellow: #ebc603;
+  --color-mw-black: #001223;
+  --color-mw-grey: #465B65;
+  --color-mw-dark-grey: #273b46;
+  --color-mw-light-grey: #BBBABA;
+  --color-mw-panel: #EEEFF2;
+  --color-mw-blue: #00A8B5;
+  --color-mw-dark-blue: #007B7B;
+  --color-mw-orange: #F78B21;
+  --color-mw-dark-orange: #F36B21;
+  --color-mw-red: #EE3341;
+  --color-mw-dark-red: #A20C33;
+  --color-mw-green: #BFD730;
+  --color-mw-dark-green: #6E9934;
+  --color-mw-white: #FFFFFF;
+  --font-sans: var(--font-source-sans);
+  --font-mono: var(--font-jetbrains-mono);
+  --radius-card: 12px;
+}
+
+body {
+  background: var(--color-mw-panel);
+  color: var(--color-mw-black);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--color-mw-black);
+}
+
+a {
+  color: var(--color-mw-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-mw-dark-blue);
+}
+
+.mw-card {
+  background: white;
+  border-radius: var(--radius-card);
+  border: 1px solid rgba(0, 18, 35, 0.08);
+  box-shadow: 0 10px 15px -3px rgba(0, 18, 35, 0.12);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f6f9fc;
+  color: var(--color-mw-grey);
+}
+
+td, th {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 18, 35, 0.08);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-success { background: rgba(191, 215, 48, 0.14); color: #4b6f00; }
+.badge-warning { background: rgba(247, 139, 33, 0.18); color: #7a4100; }
+.badge-danger { background: rgba(238, 51, 65, 0.18); color: #8a1022; }
+.badge-info { background: rgba(0, 168, 181, 0.18); color: #00565d; }

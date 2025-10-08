@@ -1,0 +1,47 @@
+design-system/
+│
+├── 📘 Documentation (Start Here!)
+│   ├── INDEX.md                    ⭐ Complete guide index & navigation
+│   ├── QUICK_START.md              🚀 5-minute setup guide
+│   ├── README.md                   📖 Main documentation
+│   ├── COMPONENT_REFERENCE.md      📚 Detailed API reference
+│   ├── MIGRATION_GUIDE.md          🔄 Chakra → Tailwind migration
+│   └── DESIGN_SYSTEM_SUMMARY.md    📊 Executive summary
+│
+├── ⚙️ Configuration
+│   ├── package.json                📦 Dependencies
+│   ├── components.json             🎨 shadcn config
+│   ├── tailwind.config.ts         🎨 Tailwind + theme
+│   └── globals.css                 🎨 Global styles + CSS vars
+│
+├── 🧩 Components
+│   ├── components/ui/
+│   │   ├── index.ts               📦 All exports
+│   │   ├── button.tsx             🔘 Button component
+│   │   ├── alert.tsx              ⚠️ Alert component
+│   │   ├── avatar.tsx             👤 Avatar component
+│   │   ├── input.tsx              ✏️ Input component
+│   │   ├── badge.tsx              🏷️ Badge component
+│   │   ├── label.tsx              🏷️ Label component
+│   │   └── form-field.tsx         📝 Form field component
+│   │
+│   └── lib/
+│       └── utils.ts                🛠️ Utility functions
+│
+└── 📚 Examples
+    └── examples/
+        └── showcase.tsx            🎨 Component showcase
+
+Read time estimates:
+├── INDEX.md                    5 min
+├── QUICK_START.md             5 min
+├── README.md                  20 min
+├── COMPONENT_REFERENCE.md     30 min
+├── MIGRATION_GUIDE.md         25 min
+└── DESIGN_SYSTEM_SUMMARY.md   10 min
+
+Quick paths:
+├── New user?          → INDEX.md → QUICK_START.md
+├── Migrating?         → INDEX.md → MIGRATION_GUIDE.md
+├── Need component?    → INDEX.md → COMPONENT_REFERENCE.md
+└── Just exploring?    → INDEX.md → README.md
